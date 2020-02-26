@@ -13,8 +13,8 @@ class TestCases(unittest.TestCase):
 	'''
 	
 	def test_no_op(self):
-		self.assertEqual(2, no_op())
-		self.assertEqual(9, no_op(3,3))
+		self.assertEqual(2, code.no_op())
+		self.assertEqual(9, code.no_op(3,3))
 		
 if __name__ == "__main__":
 	unittest.main()
